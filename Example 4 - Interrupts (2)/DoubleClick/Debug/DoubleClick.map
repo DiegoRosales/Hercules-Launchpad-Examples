@@ -1,0 +1,515 @@
+******************************************************************************
+                  TI ARM Linker PC v5.1.1                      
+******************************************************************************
+>> Linked Sun Dec 22 18:54:40 2013
+
+OUTPUT FILE NAME:   <DoubleClick.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00004bf4
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  VECTORS               00000000   00000020  00000020  00000000     X
+  FLASH0                00000020   0005ffe0  00005f70  0005a070  R  X
+  STACKS                08000000   00001500  00000000  00001500  RW  
+  RAM                   08001500   00006b00  00000010  00006af0  RW  
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    00005f90   00005f90    r-x
+  00000000    00000000    00000020   00000020    r-x .intvecs
+  00000020    00000020    0000598c   0000598c    r-x .text
+  000059ac    000059ac    000005c4   000005c4    r-- .const
+  00005f70    00005f70    00000020   00000020    r-- .cinit
+08001500    08001500    00000010   00000000    rw-
+  08001500    08001500    00000010   00000000    rw- .data
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    00000020     
+                  00000000    00000020     sys_intvecs.obj (.intvecs)
+
+.text      0    00000020    0000598c     
+                  00000020    00002064     sys_selftest.obj (.text)
+                  00002084    00000948     het.obj (.text)
+                  000029cc    00000878     sys_vim.obj (.text)
+                  00003244    00000660     rti.obj (.text)
+                  000038a4    00000620     esm.obj (.text)
+                  00003ec4    00000484     gio.obj (.text)
+                  00004348    00000340     sys_core.obj (.text)
+                  00004688    000002f4     system.obj (.text)
+                  0000497c    00000278     sys_vim.obj (.text:retain)
+                  00004bf4    000001b8     sys_startup.obj (.text:retain)
+                  00004dac    00000190     rtsv7R4_A_le_eabi.lib : fd_div32.obj (.text)
+                  00004f3c    00000180                           : memcpy32.obj (.text)
+                  000050bc    00000130     esm.obj (.text:retain)
+                  000051ec    00000128     rtsv7R4_A_le_eabi.lib : fd_mul32.obj (.text)
+                  00005314    000000e8     dabort.obj (.text)
+                  000053fc    000000dc     notification.obj (.text)
+                  000054d8    000000d4     rtsv7R4_A_le_eabi.lib : auto_init.obj (.text)
+                  000055ac    000000c0     pinmux.obj (.text)
+                  0000566c    00000098     rtsv7R4_A_le_eabi.lib : copy_decompress_rle.obj (.text)
+                  00005704    00000088     het.obj (.text:retain)
+                  0000578c    00000080     rtsv7R4_A_le_eabi.lib : cpy_tbl.obj (.text)
+                  0000580c    00000078                           : exit.obj (.text)
+                  00005884    0000005c                           : fd_tou32.obj (.text)
+                  000058e0    00000034                           : u_tofd32.obj (.text)
+                  00005914    00000030     sys_main.obj (.text)
+                  00005944    00000024     rti.obj (.text:retain)
+                  00005968    00000024     rtsv7R4_A_le_eabi.lib : _lock.obj (.text)
+                  0000598c    00000014                           : copy_decompress_none.obj (.text:decompress:none)
+                  000059a0    00000008                           : copy_decompress_rle.obj (.text:decompress:rle24)
+                  000059a8    00000004     sys_phantom.obj (.text:retain)
+
+.const     0    000059ac    000005c4     
+                  000059ac    000003a0     het.obj (.const:het1PROGRAM)
+                  00005d4c    00000204     sys_vim.obj (.const:s_vim_init)
+                  00005f50    00000020     het.obj (.const)
+
+.cinit     0    00005f70    00000020     
+                  00005f70    0000000f     (.cinit..data.load) [load image, compression = rle]
+                  00005f7f    00000001     --HOLE-- [fill = 0]
+                  00005f80    00000008     (__TI_handler_table)
+                  00005f88    00000008     (__TI_cinit_table)
+
+.data      0    08001500    00000010     UNINITIALIZED
+                  08001500    00000008     rtsv7R4_A_le_eabi.lib : _lock.obj (.data)
+                  08001508    00000008                           : exit.obj (.data)
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 00005f88 records: 1, size/record: 8, table size: 8
+	.data: load addr=00005f70, load size=0000000f bytes, run addr=08001500, run size=00000010 bytes, compression=rle
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 00005f80 records: 2, size/record: 4, table size: 8
+	index: 0, handler: __TI_decompress_rle24
+	index: 1, handler: __TI_decompress_none
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+0000580c   C$$EXIT
+00003614   IsdwdKeySequenceCorrect
+UNDEFED    SHT$$INIT_ARRAY$$Base
+UNDEFED    SHT$$INIT_ARRAY$$Limit
+00005f88   __TI_CINIT_Base
+00005f90   __TI_CINIT_Limit
+00005f80   __TI_Handler_Table_Base
+00005f88   __TI_Handler_Table_Limit
+00004680   __TI_PINIT_Base
+00004684   __TI_PINIT_Limit
+000054d8   __TI_auto_init
+08001508   __TI_cleanup_ptr
+0000598c   __TI_decompress_none
+000059a0   __TI_decompress_rle24
+0800150c   __TI_dtors_ptr
+00000000   __TI_static_base__
+00005884   __aeabi_d2uiz
+00004dac   __aeabi_ddiv
+000051ec   __aeabi_dmul
+00004f3c   __aeabi_memcpy
+00004f3c   __aeabi_memcpy4
+00004f3c   __aeabi_memcpy8
+000058e0   __aeabi_ui2d
+ffffffff   __binit__
+ffffffff   __c_args__
+00004bf4   _c_int00
+00004590   _coreClearAuxiliaryDataFault_
+000045ac   _coreClearAuxiliaryInstructionFault_
+00004558   _coreClearDataFaultAddress_
+00004520   _coreClearDataFault_
+00004574   _coreClearInstructionFaultAddress_
+0000453c   _coreClearInstructionFault_
+00004484   _coreDisableEventBusExport_
+000044e8   _coreDisableFlashEcc_
+000044b4   _coreDisableRamEcc_
+0000446c   _coreEnableEventBusExport_
+000044cc   _coreEnableFlashEcc_
+00004500   _coreEnableIrqVicOffset_
+0000449c   _coreEnableRamEcc_
+00004588   _coreGetAuxiliaryDataFault_
+000045a4   _coreGetAuxiliaryInstructionFault_
+00004550   _coreGetDataFaultAddress_
+00004518   _coreGetDataFault_
+0000456c   _coreGetInstructionFaultAddress_
+00004534   _coreGetInstructionFault_
+00004348   _coreInitRegisters_
+00004400   _coreInitStackPointer_
+00005314   _dabort
+000045c8   _disable_FIQ_interrupt_
+000045d0   _disable_IRQ_interrupt_
+000045c0   _disable_interrupt_
+000045d8   _enable_interrupt_
+00004668   _errata_CORTEXR4_66_
+000045e0   _esmCcmErrorsClear_
+0000444c   _getCPSRValue_
+00004454   _gotoCPUIdle_
+08001500   _lock
+00005980   _nop
+00005974   _register_lock
+00005968   _register_unlock
+08001504   _unlock
+00005814   abort
+00000f08   adc1ParityCheck
+ffffffff   binit
+00000fd0   can1ParityCheck
+000010b8   can2ParityCheck
+000026b4   capGetSignal
+00000030   ccmSelfCheck
+00001f94   ccmr4GetConfigValue
+00000884   checkB0RAMECC
+00000a38   checkB1RAMECC
+000014e0   checkClockMonitor
+00000bec   checkFlashECC
+000015ac   checkFlashEEPROMECC
+00001744   checkPLL1Slip
+0000184c   checkPLL2Slip
+00001910   checkRAMAddrParity
+000012cc   checkRAMECC
+000019f4   checkRAMUERRTest
+000006e0   checkefcSelfTest
+0000578c   copy_in
+00000234   cpuSelfTest
+00000cd0   cpuSelfTestFail
+00000cc8   custom_dabort
+0000367c   dwdClearFlag
+000035b0   dwdCounterEnable
+000035f8   dwdGenerateSysReset
+00003648   dwdGetStatus
+0000368c   dwdGetViolationStatus
+00003534   dwdInit
+000035dc   dwdReset
+000035c0   dwdSetPreload
+000035a4   dwwdGetCurrentDownCounter
+0000355c   dwwdInit
+00002674   edgeDisableNotification
+00002638   edgeEnableNotification
+0000260c   edgeGetCounter
+000054a0   edgeNotification
+000025e0   edgeResetCounter
+00000590   efcCheck
+00001f00   efcGetConfigValue
+000006b8   efcSelfTest
+000005f4   efcStuckZeroTest
+00003a54   esmActivateNormalOperation
+00003b40   esmClearStatus
+00003b80   esmClearStatusBuffer
+00003a18   esmDisableError
+00003a90   esmDisableInterrupt
+000039ec   esmEnableError
+00003a64   esmEnableInterrupt
+00003ca0   esmEnterSelfTest
+000039d0   esmError
+00003d64   esmGetConfigValue
+00003bcc   esmGetStatus
+00003c40   esmGetStatusBuffer
+000053fc   esmGroup1Notification
+0000540c   esmGroup2Notification
+000050bc   esmHighInterrupt
+000038a4   esmInit
+00003d14   esmSelfTestStatus
+00003bac   esmSetCounterPreloadValue
+00003abc   esmSetInterruptLevel
+00003a44   esmTriggerErrorPinReset
+00005820   exit
+00001b18   fmcBus1ParityCheck
+000007a8   fmcBus2Check
+000007e4   fmcECCcheck
+00004124   gioDisableNotification
+000040bc   gioEnableNotification
+00004024   gioGetBit
+0000418c   gioGetConfigValue
+0000404c   gioGetPort
+00003ec4   gioInit
+0000546c   gioNotification
+00003fb4   gioSetBit
+00003f94   gioSetDirection
+00004004   gioSetPort
+00004064   gioToggleBit
+000027f0   het1GetConfigValue
+00005704   het1HighLevelInterrupt
+00000d94   het1ParityCheck
+000027d8   hetGetTimestamp
+00002084   hetInit
+000054b4   hetNotification
+000027bc   hetResetTimestamp
+00000e48   htu1ParityCheck
+00005914   main
+000047b4   mapClocks
+00004f3c   memcpy
+00000174   memoryInit
+0000541c   memoryPort0TestFailNotification
+00005438   memoryPort1TestFailNotification
+000011a8   mibspi1ParityCheck
+000055ac   muxInit
+00001c40   pbistFail
+00001d14   pbistGetConfigValue
+000004dc   pbistIsTestCompleted
+000004f8   pbistIsTestPassed
+00000534   pbistPortTestStatus
+000003e0   pbistRun
+000002b4   pbistSelfCheck
+000004ac   pbistStop
+00004760   periphInit
+000059a8   phantomInterrupt
+000025b0   pwmDisableNotification
+00002568   pwmEnableNotification
+00002458   pwmGetSignal
+00005480   pwmNotification
+000021ac   pwmSetDuty
+000022f0   pwmSetSignal
+00002144   pwmStart
+00002178   pwmStop
+00000000   resetEntry
+00005944   rtiCompare0Interrupt
+0000326c   rtiDisableNotification
+00003244   rtiEnableNotification
+00003714   rtiGetConfigValue
+000034a8   rtiGetCurrentTick
+00003480   rtiGetPeriod
+00003288   rtiInit
+00005454   rtiNotification
+000033d4   rtiResetCounter
+00003458   rtiSetPeriod
+0000337c   rtiStartCounter
+000033a8   rtiStopCounter
+00000020   selftestFailNotification
+00004720   setupFlash
+00004688   setupPLL
+00001e60   stcGetConfigValue
+000001b8   stcSelfCheck
+00000ccc   stcSelfCheckFail
+0000487c   systemInit
+00004908   systemPowerDown
+000046d8   trimLPO
+00002a88   vimChannelMap
+00002c7c   vimDisableInterrupt
+00002b24   vimEnableInterrupt
+00002d00   vimGetConfigValue
+000029cc   vimInit
+00000cd4   vimParityCheck
+0000497c   vimParityErrorHandler
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   __TI_static_base__
+00000000   resetEntry
+00000020   selftestFailNotification
+00000030   ccmSelfCheck
+00000174   memoryInit
+000001b8   stcSelfCheck
+00000234   cpuSelfTest
+000002b4   pbistSelfCheck
+000003e0   pbistRun
+000004ac   pbistStop
+000004dc   pbistIsTestCompleted
+000004f8   pbistIsTestPassed
+00000534   pbistPortTestStatus
+00000590   efcCheck
+000005f4   efcStuckZeroTest
+000006b8   efcSelfTest
+000006e0   checkefcSelfTest
+000007a8   fmcBus2Check
+000007e4   fmcECCcheck
+00000884   checkB0RAMECC
+00000a38   checkB1RAMECC
+00000bec   checkFlashECC
+00000cc8   custom_dabort
+00000ccc   stcSelfCheckFail
+00000cd0   cpuSelfTestFail
+00000cd4   vimParityCheck
+00000d94   het1ParityCheck
+00000e48   htu1ParityCheck
+00000f08   adc1ParityCheck
+00000fd0   can1ParityCheck
+000010b8   can2ParityCheck
+000011a8   mibspi1ParityCheck
+000012cc   checkRAMECC
+000014e0   checkClockMonitor
+000015ac   checkFlashEEPROMECC
+00001744   checkPLL1Slip
+0000184c   checkPLL2Slip
+00001910   checkRAMAddrParity
+000019f4   checkRAMUERRTest
+00001b18   fmcBus1ParityCheck
+00001c40   pbistFail
+00001d14   pbistGetConfigValue
+00001e60   stcGetConfigValue
+00001f00   efcGetConfigValue
+00001f94   ccmr4GetConfigValue
+00002084   hetInit
+00002144   pwmStart
+00002178   pwmStop
+000021ac   pwmSetDuty
+000022f0   pwmSetSignal
+00002458   pwmGetSignal
+00002568   pwmEnableNotification
+000025b0   pwmDisableNotification
+000025e0   edgeResetCounter
+0000260c   edgeGetCounter
+00002638   edgeEnableNotification
+00002674   edgeDisableNotification
+000026b4   capGetSignal
+000027bc   hetResetTimestamp
+000027d8   hetGetTimestamp
+000027f0   het1GetConfigValue
+000029cc   vimInit
+00002a88   vimChannelMap
+00002b24   vimEnableInterrupt
+00002c7c   vimDisableInterrupt
+00002d00   vimGetConfigValue
+00003244   rtiEnableNotification
+0000326c   rtiDisableNotification
+00003288   rtiInit
+0000337c   rtiStartCounter
+000033a8   rtiStopCounter
+000033d4   rtiResetCounter
+00003458   rtiSetPeriod
+00003480   rtiGetPeriod
+000034a8   rtiGetCurrentTick
+00003534   dwdInit
+0000355c   dwwdInit
+000035a4   dwwdGetCurrentDownCounter
+000035b0   dwdCounterEnable
+000035c0   dwdSetPreload
+000035dc   dwdReset
+000035f8   dwdGenerateSysReset
+00003614   IsdwdKeySequenceCorrect
+00003648   dwdGetStatus
+0000367c   dwdClearFlag
+0000368c   dwdGetViolationStatus
+00003714   rtiGetConfigValue
+000038a4   esmInit
+000039d0   esmError
+000039ec   esmEnableError
+00003a18   esmDisableError
+00003a44   esmTriggerErrorPinReset
+00003a54   esmActivateNormalOperation
+00003a64   esmEnableInterrupt
+00003a90   esmDisableInterrupt
+00003abc   esmSetInterruptLevel
+00003b40   esmClearStatus
+00003b80   esmClearStatusBuffer
+00003bac   esmSetCounterPreloadValue
+00003bcc   esmGetStatus
+00003c40   esmGetStatusBuffer
+00003ca0   esmEnterSelfTest
+00003d14   esmSelfTestStatus
+00003d64   esmGetConfigValue
+00003ec4   gioInit
+00003f94   gioSetDirection
+00003fb4   gioSetBit
+00004004   gioSetPort
+00004024   gioGetBit
+0000404c   gioGetPort
+00004064   gioToggleBit
+000040bc   gioEnableNotification
+00004124   gioDisableNotification
+0000418c   gioGetConfigValue
+00004348   _coreInitRegisters_
+00004400   _coreInitStackPointer_
+0000444c   _getCPSRValue_
+00004454   _gotoCPUIdle_
+0000446c   _coreEnableEventBusExport_
+00004484   _coreDisableEventBusExport_
+0000449c   _coreEnableRamEcc_
+000044b4   _coreDisableRamEcc_
+000044cc   _coreEnableFlashEcc_
+000044e8   _coreDisableFlashEcc_
+00004500   _coreEnableIrqVicOffset_
+00004518   _coreGetDataFault_
+00004520   _coreClearDataFault_
+00004534   _coreGetInstructionFault_
+0000453c   _coreClearInstructionFault_
+00004550   _coreGetDataFaultAddress_
+00004558   _coreClearDataFaultAddress_
+0000456c   _coreGetInstructionFaultAddress_
+00004574   _coreClearInstructionFaultAddress_
+00004588   _coreGetAuxiliaryDataFault_
+00004590   _coreClearAuxiliaryDataFault_
+000045a4   _coreGetAuxiliaryInstructionFault_
+000045ac   _coreClearAuxiliaryInstructionFault_
+000045c0   _disable_interrupt_
+000045c8   _disable_FIQ_interrupt_
+000045d0   _disable_IRQ_interrupt_
+000045d8   _enable_interrupt_
+000045e0   _esmCcmErrorsClear_
+00004668   _errata_CORTEXR4_66_
+00004680   __TI_PINIT_Base
+00004684   __TI_PINIT_Limit
+00004688   setupPLL
+000046d8   trimLPO
+00004720   setupFlash
+00004760   periphInit
+000047b4   mapClocks
+0000487c   systemInit
+00004908   systemPowerDown
+0000497c   vimParityErrorHandler
+00004bf4   _c_int00
+00004dac   __aeabi_ddiv
+00004f3c   __aeabi_memcpy
+00004f3c   __aeabi_memcpy4
+00004f3c   __aeabi_memcpy8
+00004f3c   memcpy
+000050bc   esmHighInterrupt
+000051ec   __aeabi_dmul
+00005314   _dabort
+000053fc   esmGroup1Notification
+0000540c   esmGroup2Notification
+0000541c   memoryPort0TestFailNotification
+00005438   memoryPort1TestFailNotification
+00005454   rtiNotification
+0000546c   gioNotification
+00005480   pwmNotification
+000054a0   edgeNotification
+000054b4   hetNotification
+000054d8   __TI_auto_init
+000055ac   muxInit
+00005704   het1HighLevelInterrupt
+0000578c   copy_in
+0000580c   C$$EXIT
+00005814   abort
+00005820   exit
+00005884   __aeabi_d2uiz
+000058e0   __aeabi_ui2d
+00005914   main
+00005944   rtiCompare0Interrupt
+00005968   _register_unlock
+00005974   _register_lock
+00005980   _nop
+0000598c   __TI_decompress_none
+000059a0   __TI_decompress_rle24
+000059a8   phantomInterrupt
+00005f80   __TI_Handler_Table_Base
+00005f88   __TI_CINIT_Base
+00005f88   __TI_Handler_Table_Limit
+00005f90   __TI_CINIT_Limit
+08001500   _lock
+08001504   _unlock
+08001508   __TI_cleanup_ptr
+0800150c   __TI_dtors_ptr
+ffffffff   __binit__
+ffffffff   __c_args__
+ffffffff   binit
+UNDEFED    SHT$$INIT_ARRAY$$Base
+UNDEFED    SHT$$INIT_ARRAY$$Limit
+
+[201 symbols]

@@ -1,0 +1,102 @@
+
+**** Build of configuration Debug for project DoubleClick ****
+
+"C:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../source/dabort.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/dabort.pp" --obj_directory="source"  "../source/dabort.asm"
+'Finished building: ../source/dabort.asm'
+' '
+'Building file: ../source/esm.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/esm.pp" --obj_directory="source"  "../source/esm.c"
+'Finished building: ../source/esm.c'
+' '
+'Building file: ../source/gio.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/gio.pp" --obj_directory="source"  "../source/gio.c"
+'Finished building: ../source/gio.c'
+' '
+'Building file: ../source/het.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/het.pp" --obj_directory="source"  "../source/het.c"
+'Finished building: ../source/het.c'
+' '
+'Building file: ../source/notification.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/notification.pp" --obj_directory="source"  "../source/notification.c"
+'Finished building: ../source/notification.c'
+' '
+'Building file: ../source/pinmux.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/pinmux.pp" --obj_directory="source"  "../source/pinmux.c"
+'Finished building: ../source/pinmux.c'
+' '
+'Building file: ../source/rti.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/rti.pp" --obj_directory="source"  "../source/rti.c"
+'Finished building: ../source/rti.c'
+' '
+'Building file: ../source/sys_core.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_core.pp" --obj_directory="source"  "../source/sys_core.asm"
+'Finished building: ../source/sys_core.asm'
+' '
+'Building file: ../source/sys_intvecs.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_intvecs.pp" --obj_directory="source"  "../source/sys_intvecs.asm"
+'Finished building: ../source/sys_intvecs.asm'
+' '
+'Building file: ../source/sys_main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_main.pp" --obj_directory="source"  "../source/sys_main.c"
+'Finished building: ../source/sys_main.c'
+' '
+'Building file: ../source/sys_mpu.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_mpu.pp" --obj_directory="source"  "../source/sys_mpu.asm"
+'Finished building: ../source/sys_mpu.asm'
+' '
+'Building file: ../source/sys_pcr.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_pcr.pp" --obj_directory="source"  "../source/sys_pcr.c"
+'Finished building: ../source/sys_pcr.c'
+' '
+'Building file: ../source/sys_phantom.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_phantom.pp" --obj_directory="source"  "../source/sys_phantom.c"
+'Finished building: ../source/sys_phantom.c'
+' '
+'Building file: ../source/sys_pmu.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_pmu.pp" --obj_directory="source"  "../source/sys_pmu.asm"
+'Finished building: ../source/sys_pmu.asm'
+' '
+'Building file: ../source/sys_selftest.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_selftest.pp" --obj_directory="source"  "../source/sys_selftest.c"
+'Finished building: ../source/sys_selftest.c'
+' '
+'Building file: ../source/sys_startup.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_startup.pp" --obj_directory="source"  "../source/sys_startup.c"
+'Finished building: ../source/sys_startup.c'
+' '
+'Building file: ../source/sys_vim.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/sys_vim.pp" --obj_directory="source"  "../source/sys_vim.c"
+'Finished building: ../source/sys_vim.c'
+' '
+'Building file: ../source/system.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me --include_path="C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/Hercules/DoubleClick/DoubleClick/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/system.pp" --obj_directory="source"  "../source/system.c"
+'Finished building: ../source/system.c'
+' '
+'Building target: DoubleClick.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7R4 --code_state=32 --abi=eabi -me -g --diag_warning=225 --display_error_number --diag_wrap=off --enum_type=packed -z -m"DoubleClick.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv5/tools/compiler/arm_5.1.1/lib" -i"C:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="DoubleClick_linkInfo.xml" --rom_model -o "DoubleClick.out"  "./source/system.obj" "./source/sys_vim.obj" "./source/sys_startup.obj" "./source/sys_selftest.obj" "./source/sys_pmu.obj" "./source/sys_phantom.obj" "./source/sys_pcr.obj" "./source/sys_mpu.obj" "./source/sys_main.obj" "./source/sys_intvecs.obj" "./source/sys_core.obj" "./source/rti.obj" "./source/pinmux.obj" "./source/notification.obj" "./source/het.obj" "./source/gio.obj" "./source/esm.obj" "./source/dabort.obj" "../source/sys_link.cmd" -l"libc.a" 
+<Linking>
+'Finished building target: DoubleClick.out'
+' '
+
+**** Build Finished ****

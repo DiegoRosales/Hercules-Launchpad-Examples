@@ -1,0 +1,910 @@
+!SESSION 2013-12-10 13:07:56.624 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-10 13:08:16.472
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2013-12-10 13:09:10.038
+!MESSAGE Unrecognized option setting '--elf' for tool 'com.ti.ccstudio.buildDefinitions.TMS470_5.1.exe.compilerDebug.1937020322'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2013-12-10 13:09:10.041
+!MESSAGE Unrecognized option setting '--little' for tool 'com.ti.ccstudio.buildDefinitions.TMS470_5.1.exe.linkerDebug.64967879'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2013-12-10 13:09:10.085
+!MESSAGE Unrecognized option setting '--elf' for tool 'com.ti.ccstudio.buildDefinitions.TMS470_5.1.exe.compilerRelease.343273723'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2013-12-10 13:09:10.087
+!MESSAGE Unrecognized option setting '--little' for tool 'com.ti.ccstudio.buildDefinitions.TMS470_5.1.exe.linkerRelease.1425361077'
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-12-10 13:09:13.814
+!MESSAGE Indexed 'Serial' (12 sources, 65 headers) in 1.45 sec: 3,455 declarations; 6,521 references; 0 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.08%)
+
+!ENTRY org.eclipse.jface 2 0 2013-12-10 13:25:49.428
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-10 13:25:49.428
+!MESSAGE A conflict occurred for ALT+E:
+Binding(ALT+E,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.command1,Terminal view insert,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,%terminal.view.insertion.description,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.TerminalContext,,,system)
+Binding(ALT+E,
+	ParameterizedCommand(Command(com.ti.ccstudio.debug.ui.command.restoreDebugState,Restore Debug State,
+		Restore debug state for the selected core(s),
+		Category(com.ti.ccstudio.debug.ui.commandCategory,Code Composer Studio Debug Commands,Set of commands for Code Composer Studio debug actions,true),
+		com.ti.ccstudio.debug.ui.commands.RestoreDebugStateHandler@696349,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY com.ti.ccstudio.debug.ui 2 0 2013-12-10 19:20:56.312
+!MESSAGE The heartbeat job is still running.
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-12-10 19:20:59.866
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.ti.ccstudio.debug.ui.licensing.LicenseMonitor$1
+!SESSION 2013-12-13 10:13:31.436 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 10:13:42.765
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.jface 2 0 2013-12-13 10:33:02.444
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-13 10:33:02.444
+!MESSAGE A conflict occurred for ALT+E:
+Binding(ALT+E,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.command1,Terminal view insert,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,%terminal.view.insertion.description,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.TerminalContext,,,system)
+Binding(ALT+E,
+	ParameterizedCommand(Command(com.ti.ccstudio.debug.ui.command.restoreDebugState,Restore Debug State,
+		Restore debug state for the selected core(s),
+		Category(com.ti.ccstudio.debug.ui.commandCategory,Code Composer Studio Debug Commands,Set of commands for Code Composer Studio debug actions,true),
+		com.ti.ccstudio.debug.ui.commands.RestoreDebugStateHandler@1dbc53d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:45.563
+!MESSAGE DS_ERROR: CortexR4: Error: (Error -1044 @ 0xFFFFFF0E) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:46.125
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x8000ffc on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:46.639
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:47.263
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:47.825
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x8000ffc on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:48.340
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x8001514 on Page 0 of Length 0x1: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:48.855
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x8001515 on Page 0 of Length 0x1: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:49.370
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x8001516 on Page 0 of Length 0x1: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 10:33:49.900
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x8001517 on Page 0 of Length 0x1: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:44.544
+!MESSAGE DS_ERROR: CortexR4: Error: (Error -1025 @ 0x0) Internal error: Invalid error code. Restart the application. If error persists, please report the error. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:45.066
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:45.596
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x8000ffc on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:46.158
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:46.688
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:47.717
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:48.731
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:49.777
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:50.806
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:51.836
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:52.865
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:53.895
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:54.925
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:55.954
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:56.984
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:58.014
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:18:59.059
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:00.089
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:01.134
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:02.163
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:03.193
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:04.222
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:05.252
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:06.282
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:07.311
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:08.356
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:09.386
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:10.415
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:11.446
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:12.475
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:13.505
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:14.534
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:15.564
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:16.609
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:17.638
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:18.668
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:19.713
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:20.743
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:21.788
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:22.818
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:23.847
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:24.892
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:25.922
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:26.950
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:27.982
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:29.027
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:30.057
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:31.086
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:32.116
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:33.145
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:34.190
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:35.236
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:36.281
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:37.310
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:38.340
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:39.369
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:40.399
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:41.428
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:42.458
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:43.488
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:44.516
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:45.548
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:46.593
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:47.622
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:48.652
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:49.681
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:50.711
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:51.741
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:52.770
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:53.800
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:54.829
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:55.859
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:56.888
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:57.918
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:58.963
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:19:59.993
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:01.021
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:02.052
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:03.098
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:04.127
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:05.157
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:06.218
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:07.247
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:08.277
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:09.306
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:10.336
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:11.364
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:12.395
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:13.424
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:14.453
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:15.484
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:16.513
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:17.543
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:18.572
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:19.602
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:20.632
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:21.677
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:22.707
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:23.237
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:24.298
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:25.328
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:26.357
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:27.387
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:28.416
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:29.446
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:30.475
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:31.521
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:32.550
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:33.580
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:34.608
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:35.654
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:36.684
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:37.729
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:38.759
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:39.789
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:40.819
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:41.864
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:42.893
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:43.923
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:44.952
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:45.982
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:47.012
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:47.542
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:48.587
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:49.631
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:50.662
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:51.691
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:52.721
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:53.750
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:54.780
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:55.811
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:56.840
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:57.885
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:58.915
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:20:59.944
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:00.973
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:02.003
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:03.033
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:04.094
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:05.122
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:06.153
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:07.198
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:08.228
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2013-12-13 11:21:09.257
+!MESSAGE DS_ERROR: CortexR4: Trouble Reading Memory Block at 0x800152c on Page 0 of Length 0x4: (Error -1141 @ 0x1FE) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug.ui 2 0 2013-12-13 12:27:47.574
+!MESSAGE The heartbeat job is still running.
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-12-13 12:27:49.449
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.ti.ccstudio.debug.ui.licensing.LicenseMonitor$1
+!SESSION 2013-12-13 14:47:29.507 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 14:47:39.596
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2013-12-13 16:44:48.226 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 16:44:56.026
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.ui 4 0 2013-12-13 16:46:18.376
+!MESSAGE Problems opening perspective 'com.ti.ccstudio.TICPerspective'
+
+!ENTRY com.ti.ccstudio.debug.ui 2 0 2013-12-13 16:46:20.527
+!MESSAGE The heartbeat job is still running.
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-12-13 16:46:21.582
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.ti.ccstudio.debug.ui.licensing.LicenseMonitor$1
+!SESSION 2013-12-13 17:03:34.948 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product -data D:\Hercules\Serial -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-13 17:03:37.178
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.ui 4 0 2013-12-13 17:04:37.380
+!MESSAGE Problems opening perspective 'com.ti.ccstudio.TICPerspective'
+
+!ENTRY com.ti.ccstudio.debug.ui 2 0 2013-12-13 17:04:39.427
+!MESSAGE The heartbeat job is still running.
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-12-13 17:04:40.489
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.ti.ccstudio.debug.ui.licensing.LicenseMonitor$1
+!SESSION 2014-01-11 20:44:46.970 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product -data D:\Hercules\Serial -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-11 20:44:50.632
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2014-01-13 18:59:53.532 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-13 19:00:05.621
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2014-01-14 18:12:29.751 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product -data D:\Hercules\Serial -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-01-14 18:12:38.590
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 18:14:35.265
+!MESSAGE Problems opening perspective 'com.ti.ccstudio.TICPerspective'

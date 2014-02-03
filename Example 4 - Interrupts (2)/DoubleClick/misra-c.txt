@@ -1,0 +1,347 @@
+------------------------------
+MODULE LEVEL MISRA VIOALTIONS 
+------------------------------
+ 
+---------------------------------------
+ crc.c
+---------------------------------------
+Line 128: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 129: /*SAFETYMCUSW 439 S MR:11.3 <APPROVED> "Pointer Manupulation required to find offset" */
+Line 154: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 156: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 229: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 64-bit value" */
+Line 233: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 64-bit value" */
+Line 414: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 64-bit value" */
+Line 418: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 64-bit value" */
+Line 466: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  pom.c
+---------------------------------------
+Line 224: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  emif.c
+---------------------------------------  
+Line 217: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  dmm.c
+---------------------------------------  
+Line 193: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  rtp.c
+---------------------------------------  
+Line 196: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  dcc.c
+---------------------------------------  
+Line 210: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read check" */
+Line 230: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read check" */
+Line 273: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read check" */
+Line 297: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read check" */
+Line 329: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read check" */
+Line 364: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read check" */
+
+---------------------------------------
+  i2c.c
+---------------------------------------  
+Line 172: /*SAFETYMCUSW 96 S MR:6.1 <APPROVED> "Calculations including int and float cannot be avoided" */
+Line 269: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 307: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 311: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 313: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */   
+Line 320: /*SAFETYMCUSW 30 S MR:12.2,12.3 <APPROVED> "Used for data count in Transmit/Receive polling and Interrupt mode" */
+Line 323: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 327: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 329: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 413: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 450: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 454: /*SAFETYMCUSW 30 S MR:12.2,12.3 <APPROVED> "Used for data count in Transmit/Receive polling and Interrupt mode" */
+Line 457: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 461: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 463: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 612: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  esm.c
+---------------------------------------  
+Line 521: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 64-bit value" */
+Line 548: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 64-bit value" */
+Line 657: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  het.c
+---------------------------------------  
+Line 2290: /*SAFETYMCUSW 94 S MR:11.1,11.2,11.4 <APPROVED> "HET RAM Fill from the table" */
+Line 2291: /*SAFETYMCUSW 95 S MR:11.1,11.4 <APPROVED> "HET RAM Fill from the table" */
+Line 2292: /*SAFETYMCUSW 95 S MR:11.1,11.4 <APPROVED> "HET RAM Fill from the table" */
+Line 2574: /*SAFETYMCUSW 94 S MR:11.1,11.2,11.4 <APPROVED> "HET RAM Fill from the table" */
+Line 2575: /*SAFETYMCUSW 95 S MR:11.1,11.4 <APPROVED> "HET RAM Fill from the table" */
+Line 2576: /*SAFETYMCUSW 95 S MR:11.1,11.4 <APPROVED> "HET RAM Fill from the table" */
+Line 2861: /*SAFETYMCUSW 96 S MR:6.1 <APPROVED> "Calculations including int and float cannot be avoided" */
+Line 2896: /*SAFETYMCUSW 96 S MR:6.1 <APPROVED> "Calculations including int and float cannot be avoided" */
+Line 2901: /*SAFETYMCUSW 96 S MR:6.1 <APPROVED> "Calculations including int and float cannot be avoided" */
+Line 3083: /*SAFETYMCUSW 96 S MR:6.1 <APPROVED> "Calculations including int and float cannot be avoided" */
+Line 3088: /*SAFETYMCUSW 96 S MR:6.1 <APPROVED> "Calculations including int and float cannot be avoided" */
+Line 3160: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 3213: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  adc.c
+---------------------------------------
+Line 140: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 251: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 544: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 556: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 718: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 813: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 1013: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  can.c
+---------------------------------------  
+Line 152: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 162: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 302: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 312: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 415: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 425: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 516: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 525: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 527: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 530: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 532: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 601: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 610: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 622: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 624: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 627: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 629: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 1070: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 1118: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 1166: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  mibspi.c
+---------------------------------------
+Line 100: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 498: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 888: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 1279: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 1317: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 1541: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 1615: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 1689: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  spi.c
+---------------------------------------  
+Line 367: /*SAFETYMCUSW 28 D MR:NA <APPROVED> " loop to send data continuously" */
+Line 374: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 32-bit value" */
+Line 380: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 384: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 446: /*SAFETYMCUSW 28 D MR:NA <APPROVED> " loop to send data continuously" */
+Line 463: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 32-bit value" */
+Line 464: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 471: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 536: /*SAFETYMCUSW 28 D MR:NA <APPROVED> " loop to send data continuously" */
+Line 553: /*SAFETYMCUSW 51 S MR:12.3 <APPROVED> "Needs shifting for 32-bit value" */
+Line 554: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 561: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 565: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 775: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 829: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  sci.c
+---------------------------------------  
+Line 245: /*SAFETYMCUSW 96 S MR:6.1 <APPROVED> "Calculations including int and float cannot be avoided" */
+Line 286: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 321: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Mode variable is configured in sciEnableNotification()" */
+Line 327: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 331: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 333: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 340: /*SAFETYMCUSW 30 S MR:12.2,12.3 <APPROVED> "Used for data count in Transmit/Receive polling and Interrupt mode" */
+Line 343: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 347: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 349: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 431: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 469: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 474: /*SAFETYMCUSW 30 S MR:12.2,12.3 <APPROVED> "Used for data count in Transmit/Receive polling and Interrupt mode" */
+Line 477: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Potentially infinite loop found - Hardware Status check for execution sequence" */
+Line 481: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 483: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 619: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 668: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  gio.c
+---------------------------------------
+Line 456: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 466: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  rti.c
+---------------------------------------  
+Line 206: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read check" */
+Line 747: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  pinmux.c
+---------------------------------------
+Line 181: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  lin.c
+---------------------------------------
+Line 338: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 346: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 348: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 451: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 453: /*SAFETYMCUSW 45 D MR:21.1 <APPROVED> "Valid non NULL input parameters are only allowed in this driver" */
+Line 606: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  sys_vim.c
+---------------------------------------
+Line 189: /*SAFETYMCUSW 439 S MR:11.3 <APPROVED> " Need to store the address of a function in a 32 bit register" */
+Line 630: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 702: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Read 32 bit volatile register" */
+
+---------------------------------------
+  sys_selftest.c
+---------------------------------------
+Line 52: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 80: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 116: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 157: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 300: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 600: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 741: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 742: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 825: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 826: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 906: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 975: /*SAFETYMCUSW 5 C MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 976: /*SAFETYMCUSW 26 S MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 977: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 999: /*SAFETYMCUSW 5 C MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 1000: /*SAFETYMCUSW 26 S MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 1001: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 1614: /*SAFETYMCUSW 95 S MR:11.1,11.4 <APPROVED> "32-bit read from the RAM location" */
+Line 1676: /*SAFETYMCUSW 95 S MR:11.1,11.4 <APPROVED> "32-bit read from the RAM location" */
+Line 1738: /*SAFETYMCUSW 95 S MR:11.1,11.4 <APPROVED> "32-bit read from the RAM location" */
+Line 1809: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 1810: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 1872: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 1892: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 1940: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 1975: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 1994: /*SAFETYMCUSW 57 S MR:14.2 <APPROVED> "EEUNCERRADD is read clear register" */
+Line 2026: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2045: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2057: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2088: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2101: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2113: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2147: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2148: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2173: /*SAFETYMCUSW 57 S MR:14.2 <APPROVED> "RAMPERADDR is read clear register" */
+Line 2175: /*SAFETYMCUSW 57 S MR:14.2 <APPROVED> "RAMPERADDR is read clear register" */
+Line 2193: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2198: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2199: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2211: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2216: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2217: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2266: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 2267: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2273: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2284: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 2310: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read check" */
+Line 2329: /*SAFETYMCUSW 5 C MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 2330: /*SAFETYMCUSW 26 S MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 2331: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 2370: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 2407: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 2439: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 2468: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  sys_startup.c
+---------------------------------------
+Line 48: /*SAFETYMCUSW 218 S MR:20.2 <APPROVED> "Functions from library" */
+Line 50: /*SAFETYMCUSW 354 S MR:1.4 <APPROVED> " Startup code(main should bedeclared by the user)" */
+Line 52: /*SAFETYMCUSW 122 S MR:20.11 <APPROVED> "Startup code(exit and abort need to be present)" */
+Line 53: /*SAFETYMCUSW 354 S MR:1.4 <APPROVED> " Startup code(Extern declaration present in the library)" */
+Line 118: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 142: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 151: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 179: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 196: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 226: /*SAFETYMCUSW 5 C MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 227: /*SAFETYMCUSW 26 S MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 228: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "for(;;) can be removed by adding "# if 0" and "# endif" in the user codes above and below" */
+Line 272: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 375: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 519: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 524: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 529: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 578: /*SAFETYMCUSW 296 S MR:8.6 <APPROVED> "Startup code(library functions at block scope)" */
+Line 579: /*SAFETYMCUSW 326 S MR:8.2 <APPROVED> "Startup code(Declaration for main in library)" */
+Line 580: /*SAFETYMCUSW 60 D MR:8.8 <APPROVED> "Startup code(Declaration for main in library;Only doing an extern for the same)" */
+Line 585: /*SAFETYMCUSW 122 S MR:20.11 <APPROVED> "Startup code(exit and abort need to be present)" */
+
+---------------------------------------
+  system.c
+---------------------------------------
+Line 46: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 117: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 235: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register " */
+Line 385: /*SAFETYMCUSW 88 S MR:2.1 <APPROVED> "Assembly in C needed" */
+Line 428: /*SAFETYMCUSW 139 S MR:13.7 <APPROVED> "Hardware status bit read check" */
+Line 458: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 488: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 531: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 581: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 588: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+
+---------------------------------------
+  sys_dma.c
+---------------------------------------  
+Line 35: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+
+---------------------------------------
+  sys_pmm.c
+---------------------------------------  
+Line 28: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 33: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 38: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 43: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 49: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 54: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 59: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 90: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register " */
+Line 95: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register " */
+Line 100: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register " */
+Line 105: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register " */
+Line 109: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 147: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 174: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register */
+Line 179: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register " */
+Line 184: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register " */
+Line 189: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> " Clear and write to the volatile register " */
+Line 193: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 226: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Wait for hardware status bit" */
+Line 306: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
+Line 347: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+Line 352: /*SAFETYMCUSW 28 D MR:NA <APPROVED> "Hardware status bit read check" */
+
+---------------------------------------
+  sys_pcr.c
+---------------------------------------  
+Line 558: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Hardware status bit read" */
+Line 616: /*SAFETYMCUSW 134 S MR:12.2 <APPROVED> "Register read back support" */
